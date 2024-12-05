@@ -1,3 +1,3 @@
 select 
 * 
-from user_info
+from target.user_info

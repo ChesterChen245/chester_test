@@ -1,9 +1,8 @@
-create table user_info (
-    user_id as int,
-    user_name as string,
-    gender as string,
-    regester_dt as date
+CREATE TABLE target.user_info (
+    user_id INT,
+    user_name STRING,
+    gender STRING,
+    regester_dt DATE
 )
-using parquet
-partition by (regester_dt)
-;
+USING PARQUET
+PARTITIONED BY (regester_dt);
