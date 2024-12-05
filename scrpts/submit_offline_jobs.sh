@@ -23,3 +23,5 @@ spark-sql -f '${home_folder}/${etl_id}.sql'
 # run docker image
 docker build -t spark-sql-example
 docker run --rm spark-sql-example
+
+docker exec -i spark-container spark-sql -f /batch_sql/example_job.sql
