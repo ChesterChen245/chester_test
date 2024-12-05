@@ -8,7 +8,7 @@ insert into target.user_info values(4,'liliu','female',date('2024-01-02'));
 
 # run the test batch
 ```shell
-bash /Users/chester/Desktop/test/chester_test/scripts/submit_spark_jobs.sh example_job
+bash /Users/chester/Desktop/test/chester_test/scripts/submit_spark_jobs.sh batch example_job
 ```
 
 # result
